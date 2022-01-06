@@ -1,0 +1,237 @@
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', cursive; */
+
+body{
+    font-family: Poppins;
+    
+}
+section{
+    margin: 0 156px;
+}
+.flexible_container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.color_text{
+    color: #FFAD5A;
+}
+.color_text1{
+    color: #13103A;
+
+}
+
+#first_heading{
+    border-left: 5px solid #FF5959;
+    
+    padding: 0 0 0 10px ;
+    font-family: Yeseva One !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 80px;
+}
+.scrolldown_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #434343;
+}
+.half_width{
+    width: 50%;
+    /* padding-left: 2%; */
+}
+.half_width img{
+    width: 90%;
+    padding: 80px;
+}
+.link_btn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    /* width: 172px; */
+    height: 48px;
+    margin: 40px 0;
+    background: #FF5959;
+
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+#explore_btn{
+    text-align: center;
+    width: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* second section mission vission */
+.heading{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+}
+.cards{
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 2%; */
+    /* margin-right: 2%; */
+}
+
+.card_item{
+    margin: 1%;
+    width: 360px;
+    height: 376px;
+    border-radius: 10px;
+    box-shadow: 2px px 5px gray;
+    padding: 12px 13px 45px 32px;
+}
+.card_item img{
+    height: 141px;
+    width: 141px;
+    
+}
+#mission{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+}
+#vission{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 26px;
+}
+#goals{
+    background: #FFF4D6;
+    border-radius: 26px;
+}
+
+
+/* third section */
+
+.limit_works_pic{
+    width: 25%;
+    padding-left: 2%;
+    margin-right: 100px;
+    
+}
+.limit_works_pic img{
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    
+}
+.limit_works_dtails{
+    margin: 50px 0 50px 150px;
+    margin-right: 2%;
+    padding-bottom: 100px;
+    text-align: justify;
+}
+#read_btn{
+    text-align: center;
+    width: 250px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* 4th section */ 
+
+.cummunity_pic img{
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    
+}
+.cummunity{
+    margin: 50px 150px 50px 0px;
+    margin-left: 2%;
+    padding-bottom: 100px;
+    text-align: justify;
+}
+
+
+/* 5th section app dtails */ 
+
+#app_btn{
+    text-align: center;
+    width: 150px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+
+.build_app{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+}
+.app_pic img{
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    
+}
+.app_dtails{
+    margin: 50px 50px 50px 0px;
+    margin-left: 2%;
+    padding: 30px;
+    text-align: justify;
+}
+
+
+/* footer part */
+
+footer{
+    text-align: center;
+    background: #0B0D17;
+}
+footer h1{
+    font-family: Lobster;
+    color: white;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+}
+footer p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 46px;
+    color: #D9DBE1;
+}
